@@ -1,0 +1,56 @@
+.app__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.points__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bb8918;
+}
+
+.points__header {
+  text-align: center;
+  font-size: 22px;
+  color: #523637;
+}
+
+.app__button {
+  width: 150px;
+  height: 55px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 20px;
+  align-self: center;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.app__button--start {
+  background-color: #a1ae25;
+}
+
+.app__button--end {
+  background-color: #ec4f43;
+}
+
+.app__button:disabled {
+  background-color: #f0f0f0;
+  pointer-events: none;
+}
+
+.app__button-block {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.app__counter {
+  font-size: 22px;
+  text-align: center;
+  color: #523637;
+}
